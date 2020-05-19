@@ -84,6 +84,7 @@
     max-width: 100%;
 
     .inner {
+        text-shadow: 4px 4px 5px #000000;
       @include vendor(
         'transition',
         (
@@ -107,6 +108,7 @@
       letter-spacing: _font(letter-spacing);
       font-size: 0.8rem;
       line-height: 2;
+      font-weight: bold;
     }
   }
 
