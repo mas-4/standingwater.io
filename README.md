@@ -1,3 +1,8 @@
+# standingwater.io
+
+This is my portfolio site. It uses Gatsby Starter Dimension by codebushi. I will
+leave the rest of the original README.md below.
+
 # gatsby-starter-dimension
 
 **This is a starter for Gatsby.js V2.**
