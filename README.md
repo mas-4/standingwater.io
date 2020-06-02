@@ -1,4 +1,5 @@
 # standingwater.io
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46c6733b-f24a-4553-ac31-3c47cddb4b3f/deploy-status)](https://app.netlify.com/sites/standingwater/deploys)
 
 This is my portfolio site. It uses Gatsby Starter Dimension by codebushi. I will
 leave the rest of the original README.md below.
