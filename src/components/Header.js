@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import Deer from '../assets/svg/deer.svg'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+        <img src={Deer} alt="Logo" />
     </div>
     <div className="content">
       <div className="inner">
