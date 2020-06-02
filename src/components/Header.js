@@ -5,7 +5,7 @@ import Deer from '../assets/svg/deer.svg'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-        <img src={Deer} alt="Logo" />
+        <img src={Deer} alt="Deer Logo" style={{ width: '85px', transform: 'translateY(10px)' }} />
     </div>
     <div className="content">
       <div className="inner">
