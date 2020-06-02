@@ -9,9 +9,12 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>StandingWater</h1>
+        <h1>Michael Sendker</h1>
         <p>
-            Full stack web development. Specializing in <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>/<a href="https://www.sqlalchemy.org/">SQLAlchemy</a>.
+            Full stack web developer. Python generalist. Specialized in <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>/<a href="https://www.sqlalchemy.org/">SQLAlchemy</a>.
+        </p>
+          <p>
+            Dedicated to learning.
         </p>
       </div>
     </div>
@@ -23,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Skills
           </button>
         </li>
         <li>
@@ -32,7 +35,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+              Projects
           </button>
         </li>
         <li>

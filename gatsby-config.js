@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'StandingWater',
+    title: 'Michael Sendker',
     author: 'Michael Sendker',
-    description: 'StandingWater Web Development',
+    description: 'Michael Sendker is a Python developer specializing in Flask/SQLAlchemy',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
