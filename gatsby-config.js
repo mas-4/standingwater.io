@@ -13,7 +13,7 @@ module.exports = {
                 'https': true,
                 'host': 'standingwater.io'
             }
-        }
+        },
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
