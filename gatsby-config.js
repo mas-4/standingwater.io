@@ -3,6 +3,7 @@ module.exports = {
     title: 'Michael Sendker',
     author: 'Michael Sendker',
     description: 'Michael Sendker is a Python developer specializing in Flask/SQLAlchemy',
+    siteUrl: `https://standingwater.io`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
