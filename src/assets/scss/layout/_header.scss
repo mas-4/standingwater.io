@@ -68,6 +68,20 @@
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
+    img {
+        transform: translateY(10px);
+        @include breakpoint(xlarge) {
+            width: 75px;
+        }
+        @include breakpoint(small) {
+            width: 58px;
+            transform: translateY(6px);
+        }
+        @include breakpoint(xxsmall) {
+            width: 55px;
+            transform: translateY(4px);
+        }
+    }
 
     .icon {
       &:before {
