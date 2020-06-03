@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -28,16 +27,75 @@ class Main extends React.Component {
                     }`}
                     style={{ display: 'none' }}
                 >
-                    <h2 className="major">Skills</h2>
+                    <h2 className="major">What I Can Do</h2>
                     <span className="image main">
                         <img src={pic01} alt="" />
                     </span>
                     <p>
-                        I am primarily a Python programmer with extensive
-                        experience in Flask and SQLAlchemy development. I have
-                        written extensive substantial data-intensive web
-                        applications using those libraries.
+                        I consider myself principally a Python developer. I have
+                        spent the past three years developing a diverse range of
+                        software in Python, from ETL pipelines to password
+                        generators to combinatoric optimizers. But by far most
+                        of my time has been spent developing a single web
+                        application in the pursuit of my obsession.
                     </p>
+                    <p>
+                        Consisting of ≈14,000 lines of code in Python, Flask,
+                        and SQLAlchemy, <a href="https://anno.wiki">anno.wiki</a> is
+                        my pet project to supply the world with definitive,
+                        collaborative, and exhaustive annotations to all the
+                        world's great literature.
+                    </p>
+                    <p>
+                        In addition, since my childhood I have developed simple
+                        websites and portfolio sites. Most recently I have spent
+                        a lot of time writing in GatsbyJS, in which this site is
+                        built.
+                    </p>
+                    <p>
+                        Recently, I have begun to explore ML, and am taking
+                        several MOOCs on statistics and data science.
+                    </p>
+                    <p>
+                        A semi-exhaustive list of my skills is found below:
+                    </p>
+                    <ul style={{ columns: 2 }} >
+                        <li>
+                            <strong>Python</strong>: Flask, SQLAlchemy, pytest,
+                            WTForms, Talisman, BeautifulSoup4, Requests,
+                            Matplotlib, Seaborn, NumPy, pandas, Scikit-Learn
+                        </li>
+                        <li>
+                            <strong>Javascript</strong>: extensive experience
+                            with vanilla JS, GatsbyJS, React, some JQuery
+                        </li>
+                        <li> Heroku </li>
+                        <li> MariaDB/MySQL </li>
+                        <li> Elasticsearch </li>
+                        <li> Sass/CSS3 </li>
+                        <li>
+                            <strong>Linux</strong>: My principle distribution of
+                            choice is Arch, but I have worked with Ubuntu and
+                            Debian.
+                        </li>
+                        <li>
+                            Bash, SSH, Taskwarrior, passwordstore, and a variety
+                            of other cli tools.
+                        </li>
+                        <li> Vim/Neovim </li>
+                        <li>
+                            I have experience working with GPG keys, SSH keys,
+                            and Yubikeys.
+                        </li>
+                        <li>
+                            I have dabbled in Java, C, and Lisp. I am interested
+                            in learning Ruby and Go.
+                        </li>
+                        <li>
+                            I am fluent in French and am currently learning
+                            Spanish.
+                        </li>
+                    </ul>
                     {close}
                 </article>
 
@@ -48,14 +106,14 @@ class Main extends React.Component {
                     }`}
                     style={{ display: 'none' }}
                 >
-                    <h2 className="major">Projects</h2>
+                    <h2 className="major">What I've Done</h2>
                     <ul>
                         <li>
-                            <a href="https://github.com/malan88/icc">Intertextual Canon Cloud</a>
+                            <a href="https://github.com/malan88/icc">Intertextual Canon Cloud</a> (<a href="https://anno.wiki">anno.wiki</a>)
                             <ul>
-                                <li>Designed, developed, launched, and maintain the web application at <a href="https://anno.wiki">anno.wiki</a> solo.</li>
+                                <li>I designed, developed, launched, and continue to maintain the web application at <a href="https://anno.wiki">anno.wiki</a> solo.</li>
                                 <li>Primarily coded in <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>/<a href="https://www.sqlalchemy.org/">SQLAlchemy</a></li>
-                                <li><a href="https://github.com/malan88/texts/tree/master/processor">Wrote many ETL data pipeline scripts</a> for processing <a href="gutenberg.org">Project Gutenberg</a> text files into custom JSON format.</li>
+                                <li>Wrote many <a href="https://github.com/malan88/texts/tree/master/processor">ETL data pipeline scripts</a> for processing <a href="https://gutenberg.org">Project Gutenberg</a> text files into custom JSON format</li>
                                 <li><a href="https://www.heroku.com/">Heroku</a> for platform</li>
                                 <li><a href="https://www.elastic.co/">Elasticsearch</a> for search</li>
                                 <li><a href="https://mariadb.org/">MariaDB</a> for database</li>
@@ -76,42 +134,21 @@ class Main extends React.Component {
                         <li>
                             <a href="https://github.com/malan88/minimalpairs">Minimal Pairs Scraping Project</a>
                             <ul>
-                                <li>
-                                    Generated
-                                    an <a href="https://ankiweb.net/shared/info/1347940877">Anki deck</a> for
-                                    recognizing phonemes difficult to hear for
-                                    an American English speaker using “minimal
-                                    pairs,” words in French which differ by only
-                                    one phoneme
-                                </li>
-                                <li>
-                                    Used <a href="https://requests.readthedocs.io/en/master/">Requests</a> for
-                                    automated downloading of the audio files
-                                </li>
-                                <li>
-                                    Used <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifulSoup4</a> for
-                                    scraping the list of minimal pairs in an <a href="https://ipython.org/">IPython</a> session
-                                </li>
+                                <li>Generated an <a href="https://ankiweb.net/shared/info/1347940877">Anki deck</a> for recognizing phonemes difficult to hear for an American English speaker using “minimal pairs,” words in French which differ by only one phoneme</li>
+                                <li>Used <a href="https://requests.readthedocs.io/en/master/">Requests</a> for automated downloading of the audio files</li>
+                                <li>Used <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifulSoup4</a> for scraping the list of minimal pairs in an <a href="https://ipython.org/">IPython</a> session</li>
                             </ul>
                         </li>
                         <li>
                             <a href="https://github.com/malan88/gobble">Gobble.py</a>
                             <ul>
-                                <li>
-                                    Python script using the <a href="https://docs.python.org/3/library/secrets.html">secrets</a> module from the Standard Library to generate a password including an English word from the Electronic Freedom Foundation's Diceware list in order to circumvent the "gobbledy-gook" social engineering vulnerability.
-                                </li>
+                                <li>Python script using the <a href="https://docs.python.org/3/library/secrets.html">secrets</a> module from the Standard Library to generate a password including an English word from the Electronic Freedom Foundation's Diceware list in order to circumvent the "gobbledy-gook" social engineering vulnerability.</li>
                             </ul>
                         </li>
                         <li>
                             <a href="https://github.com/malan88/teamup">teamup.py</a>
                             <ul>
-                                <li>
-                                    Script for programatically generating teams
-                                    from individuals based on their skill level.
-                                    The purpose is to minimize variance between
-                                    the most skilled and least skilled team.
-                                    Takes a yaml file as input.
-                                </li>
+                                <li>Script for programatically generating teams from individuals based on their skill level.  The purpose is to minimize variance between the most skilled and least skilled team. Takes a yaml file as input.</li>
                             </ul>
                         </li>
                     </ul>
@@ -125,18 +162,67 @@ class Main extends React.Component {
                     }`}
                     style={{ display: 'none' }}
                 >
-                    <h2 className="major">About</h2>
+                    <h2 className="major">Who I Am</h2>
                     <span className="image main">
                         <img src={pic03} alt="" />
                     </span>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-                        eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-                        erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-                        lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-                        Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-                        Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-                        amet.
+                        I've always been interested in computers, developing my
+                        first website in just HTML and CSS at age 13, but was
+                        more pulled by the liberal arts. I majored in philosophy
+                        and classics at Florida State University. I only became
+                        more interested in programming as part of my developing
+                        obsession with literature.
+                    </p>
+                    <p>
+                        As I embarked on a personal study of the tragedies of
+                        Shakespeare and the King James Bible, I became upset at
+                        the lack of definitive and exhaustive resources for deep
+                        reading in literature.  Annotations on any classical
+                        text are scattered among a smattering of academic and
+                        popular books with no consistency in quality and content
+                        even within one text. They often focused on pedantic
+                        textual issues irrelevant to my interest in a deeper
+                        grasp of authorial meaning and the text's place in
+                        cultural history. So I decided to write my own
+                        application for that: a collaborative wiki for
+                        annotating classical literature: <a
+                        href="https://anno.wiki">anno.wiki</a>.
+                    </p>
+                    <p>
+                        As a result of that experience I delved far deeper into
+                        programming and computers than I expected. I studied
+                        computer security and calculus. I studied C and Lisp
+                        through Structure and Interpretation of Computer
+                        Programs. I delved into Linux ricing and React. I began
+                        to recognize the <a
+                        href="https://raw.githubusercontent.com/malan88/malan88.github.io-src/master/content/intro.md">High
+                        Culture of Open Source</a>.
+                    </p>
+                    <p>
+                        I continue to learn, and am currently studying the
+                        following:
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://www.coursera.org/specializations/statistics-with-python">
+                                UM's Statistics with Python Specialization
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/statistics-probability/">
+                                Udemy's Become a Probability & Statistics Master
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.kaggle.com/learn/overview">
+                                Kaggle's Machine Learning Mini-Courses
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        In my spare time I enjoy literature (particularly William
+                        Faulkner and Cormac McCarthy), wine, and running.
                     </p>
                     {close}
                 </article>
