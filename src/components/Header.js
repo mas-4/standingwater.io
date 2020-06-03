@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Deer from '../assets/svg/deer.svg'
+import Heron from '../assets/svg/heron.svg'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-        <img src={Deer} alt="Deer Logo" style={{ width: '85px', transform: 'translateY(10px)' }} />
+        <img src={Heron} alt="Heron Logo" style={{ transform: 'translateY(10px)' }} />
     </div>
     <div className="content">
       <div className="inner">
