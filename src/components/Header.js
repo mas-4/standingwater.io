@@ -13,9 +13,6 @@ const Header = props => (
                 <p>
                     Full stack web developer. Python generalist. Specialized in <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>/<a href="https://www.sqlalchemy.org/">SQLAlchemy</a>.
                 </p>
-                <p>
-                    Dedicated to learning.
-                </p>
                 <ul className="icons">
                     <li>
                         <a
