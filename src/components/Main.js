@@ -187,7 +187,7 @@ class Main extends React.Component {
                         cultural history. So I decided to write my own
                         application for that: a collaborative wiki for
                         annotating classical literature: <a
-                        href="https://anno.wiki">anno.wiki</a>.
+                            href="https://anno.wiki">anno.wiki</a>.
                     </p>
                     <p>
                         As a result of that experience I delved far deeper into
@@ -196,8 +196,8 @@ class Main extends React.Component {
                         through Structure and Interpretation of Computer
                         Programs. I delved into Linux ricing and React. I began
                         to recognize the <a
-                        href="https://raw.githubusercontent.com/malan88/malan88.github.io-src/master/content/intro.md">High
-                        Culture of Open Source</a>.
+                            href="https://raw.githubusercontent.com/malan88/malan88.github.io-src/master/content/intro.md">High
+                            Culture of Open Source</a>.
                     </p>
                     <p>
                         I continue to learn, and am currently studying the
@@ -258,39 +258,6 @@ class Main extends React.Component {
                             </li>
                         </ul>
                     </form>
-                    <ul className="icons">
-                        <li>
-                            <a
-                                href="https://www.linkedin.com/in/michael-sendker"
-                                className="icon fa-linkedin"
-                            >
-                                <span className="label">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://stackoverflow.com/story/malan88"
-                                className="icon fa-stack-overflow"
-                            >
-                                <span className="label">Stack Overflow</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://github.com/malan88"
-                                className="icon fa-github"
-                            >
-                                <span className="label">GitHub</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://blog.standingwater.io"
-                            >
-                                <span style={{ fontWeight: "bold" }}className="label">blog</span>
-                            </a>
-                        </li>
-                    </ul>
                     {close}
                 </article>
             </div>
