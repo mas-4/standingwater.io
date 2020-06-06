@@ -268,7 +268,10 @@ class Main extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/story/malan88" className="icon fa-stack-overflow">
+                            <a
+                                href="https://stackoverflow.com/story/malan88"
+                                className="icon fa-stack-overflow"
+                            >
                                 <span className="label">Stack Overflow</span>
                             </a>
                         </li>
@@ -278,6 +281,13 @@ class Main extends React.Component {
                                 className="icon fa-github"
                             >
                                 <span className="label">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://blog.standingwater.io"
+                            >
+                                <span style={{ fontWeight: "bold" }}className="label">blog</span>
                             </a>
                         </li>
                     </ul>
