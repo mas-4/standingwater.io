@@ -45,6 +45,14 @@ const Header = props => (
                             <span style={{ fontWeight: "bold" }}className="label">blog</span>
                         </a>
                     </li>
+                    <li>
+                        <a
+                            href="https://github.com/malan88/resume/raw/master/main.pdf"
+                            className="icon fa-file"
+                        >
+                            <span className="label">Résumé</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
