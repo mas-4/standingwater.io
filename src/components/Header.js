@@ -17,40 +17,36 @@ const Header = props => (
                     <li>
                         <a
                             href="https://www.linkedin.com/in/michael-sendker"
-                            className="icon fa-linkedin"
+                            className="fab fa-linkedin"
                         >
-                            <span className="label">LinkedIn</span>
                         </a>
                     </li>
                     <li>
                         <a
                             href="https://stackoverflow.com/story/malan88"
-                            className="icon fa-stack-overflow"
+                            className="fab fa-stack-overflow"
                         >
-                            <span className="label">Stack Overflow</span>
                         </a>
                     </li>
                     <li>
                         <a
                             href="https://github.com/malan88"
-                            className="icon fa-github"
+                            className="fab fa-github"
                         >
-                            <span className="label">GitHub</span>
                         </a>
                     </li>
                     <li>
                         <a
                             href="https://blog.standingwater.io"
                         >
-                            <span style={{ fontWeight: "bold" }}className="label">blog</span>
+                            <span style={{ fontWeight: "bold" }} className="label">blog</span>
                         </a>
                     </li>
                     <li>
                         <a
                             href="https://github.com/malan88/resume/raw/master/main.pdf"
-                            className="icon fa-file"
+                            className="fas fa-file-pdf"
                         >
-                            <span className="label">Résumé</span>
                         </a>
                     </li>
                 </ul>
