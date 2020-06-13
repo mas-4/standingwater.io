@@ -196,7 +196,7 @@ class Main extends React.Component {
                         through Structure and Interpretation of Computer
                         Programs. I delved into Linux ricing and React. I began
                         to recognize the <a
-                            href="https://raw.githubusercontent.com/malan88/malan88.github.io-src/master/content/intro.md">High
+                            href="https://blog.standingwater.io/20200608-073745/">High
                             Culture of Open Source</a>.
                     </p>
                     <p>
