@@ -37,6 +37,13 @@ const Header = props => (
                     </li>
                     <li>
                         <a
+                            href="https://keybase.io/m88"
+                            className="fab fa-keybase"
+                        >
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="https://blog.standingwater.io"
                         >
                             <span style={{ fontWeight: "bold" }} className="label">blog</span>
