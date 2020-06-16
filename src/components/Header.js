@@ -2,6 +2,18 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import Heron from '../assets/svg/heron.svg'
 
+const Icon = ({ faCode, url }) => {
+    return (
+        <li>
+            <a
+                href={url}
+                className={faCode}
+            >
+            </a>
+        </li>
+    )
+}
+
 const Header = props => (
     <header id="header" style={props.timeout ? { display: 'none' } : {}}>
         <div className="logo">
@@ -14,46 +26,18 @@ const Header = props => (
                     Full stack web developer. Python generalist. Specialized in <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>/<a href="https://www.sqlalchemy.org/">SQLAlchemy</a>.
                 </p>
                 <ul className="icons">
-                    <li>
-                        <a
-                            href="https://www.linkedin.com/in/michael-sendker"
-                            className="fab fa-linkedin"
-                        >
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://stackoverflow.com/story/malan88"
-                            className="fab fa-stack-overflow"
-                        >
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/malan88"
-                            className="fab fa-github"
-                        >
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://keybase.io/m88"
-                            className="fab fa-keybase"
-                        >
-                        </a>
-                    </li>
+                    <Icon faCode="fab fa-github" url="https://github.com/malan88" />
+                    <Icon faCode="fab fa-keybase" url="https://keybase.io/m88" />
+                    <Icon faCode="fab fa-stack-overflow" url="https://stackoverflow.com/story/malan88" />
+                    <Icon faCode="fab fa-hackerrank" url="https://www.hackerrank.com/mas88" />
+                    <Icon faCode="fab fa-kaggle" url="https://kaggle.com/malan88" />
+                    <Icon faCode="fab fa-linkedin" url="https://www.linkedin.com/in/michael-sendker" />
+                    <Icon faCode="fas fa-file-pdf" url="https://github.com/malan88/resume/raw/master/main.pdf" />
                     <li>
                         <a
                             href="https://blog.standingwater.io"
                         >
                             <span style={{ fontWeight: "bold" }} className="label">blog</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/malan88/resume/raw/master/main.pdf"
-                            className="fas fa-file-pdf"
-                        >
                         </a>
                     </li>
                 </ul>
