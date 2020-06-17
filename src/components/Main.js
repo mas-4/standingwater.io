@@ -219,6 +219,11 @@ class Main extends React.Component {
                                 Kaggle's Machine Learning Mini-Courses
                             </a>
                         </li>
+                        <li>
+                            <a href="https://www.gopl.io/">
+                                Donovan and Kernighan's <emphasis>The Go Programming Language</emphasis>
+                            </a>
+                        </li>
                     </ul>
                     <p>
                         In my spare time I enjoy literature (particularly William
