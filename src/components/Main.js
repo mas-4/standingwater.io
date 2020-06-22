@@ -150,6 +150,14 @@ class Main extends React.Component {
                                 <li>Hosted on Netlify</li>
                             </ul>
                         </li>
+                        <li>
+                            <a href="https://github.com/malan88/vote">vote.py</a>
+                            <ul>
+                                <li>Automated Python script to encourage and remind people to register to vote.</li>
+                                <li>Deployed using AWS EC2 instance to enable continuous service.</li>
+                                <li>Integrated Twilio as texting client.</li>
+                            </ul>
+                        </li>
                         <span className="image main project">
                             <a href="https://glendalepainting.netlify.app">
                                 <img src={glendalepainting} alt="Glendale Painting" />
