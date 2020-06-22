@@ -2,6 +2,11 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic03 from '../images/pic03.jpg'
+import annowiki from '../images/annowiki.jpg'
+import glendalepainting from '../images/glendalepainting.jpg'
+import blog from '../images/blog.jpg'
+import homepage from '../images/homepage.jpg'
+import languagemap from '../images/languagemap.jpg'
 
 class Main extends React.Component {
     render() {
@@ -107,7 +112,12 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">What I've Done</h2>
-                    <ul>
+                    <ul className="projects">
+                        <span className="image main project">
+                            <a href="https://anno.wiki">
+                                <img src={annowiki} alt="annowiki" />
+                            </a>
+                        </span>
                         <li>
                             <a href="https://github.com/malan88/icc">Intertextual Canon Cloud</a> (<a href="https://anno.wiki">anno.wiki</a>)
                             <ul>
@@ -123,12 +133,56 @@ class Main extends React.Component {
                                 <li><a href="https://wtforms.readthedocs.io/en/2.3.x/">WTForms</a> for forms</li>
                             </ul>
                         </li>
+                        <span className="image main project">
+                            <a href="https://language-map.com">
+                                <img src={languagemap} alt="Language Map" />
+                            </a>
+                        </span>
+                        <li><a href="https://languagemap.com">Language Map</a>
+                            <ul>
+                                <li>Extensive data gathering and web scraping mission detailed <a href="https://blog.standingwater.io/20200622-151403/">here</a></li>
+                                <li>BeautifulSoup4, requests, <a href="http://pubproxy.com/">PubProxy</a>, <a href="https://scrapestack.com/">scrapestack</a></li>
+                                <li><a href="https://gspread.readthedocs.io/en/latest/">gspread</a>, <a href="https://developers.google.com/sheets/api/reference/rest">Google Sheets API</a></li>
+                                <li>pandas, csv, json</li>
+                                <li>ReactJS</li>
+                                <li><a href="https://www.react-simple-maps.io/">React Simple Maps</a></li>
+                                <li><a href="https://material-ui.com/">Material-UI</a></li>
+                                <li>Hosted on Netlify</li>
+                            </ul>
+                        </li>
+                        <span className="image main project">
+                            <a href="https://glendalepainting.netlify.app">
+                                <img src={glendalepainting} alt="Glendale Painting" />
+                            </a>
+                        </span>
                         <li>
                             <a href="https://glendalepainting.netlify.com">glendalepainting.com</a>
                             <ul>
                                 <li><a href="https://www.gatsbyjs.org/">GatsbyJS</a> static site</li>
                                 <li><a href="https://www.react-spring.io/">react-spring</a> for parallax animation</li>
                                 <li><a href="https://www.react-reveal.com/">react-reveal</a> for transition animations</li>
+                            </ul>
+                        </li>
+                        <span className="image main project">
+                            <a href="https://blog.standingwater.io">
+                                <img src={blog} alt="Blog" />
+                            </a>
+                        </span>
+                        <li>
+                            <a href="https://blog.standingwater.io">blog.standingwater.io</a>
+                            <ul>
+                                <li>GatsbyJS blog built from default starter</li>
+                            </ul>
+                        </li>
+                        <span className="image main project">
+                            <a href="https://standingwater.io">
+                                <img src={homepage} alt="Standingwater" />
+                            </a>
+                        </span>
+                        <li>
+                            Standingwater
+                            <ul>
+                                <li>GatsbyJS portfolio site built from HTML5Up template</li>
                             </ul>
                         </li>
                         <li>

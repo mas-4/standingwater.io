@@ -72,6 +72,9 @@
 				width: 100%;
 			}
 		}
+        &.project {
+            margin-bottom: 0;
+        }
 
 		@include breakpoint(small) {
 			&.main {

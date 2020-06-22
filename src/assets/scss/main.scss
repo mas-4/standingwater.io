@@ -47,3 +47,10 @@
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/footer';
+
+// additions
+.projects {
+    & li {
+        list-style-type: none;
+    }
+}
