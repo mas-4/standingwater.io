@@ -138,7 +138,7 @@ class Main extends React.Component {
                                 <img src={languagemap} alt="Language Map" />
                             </a>
                         </span>
-                        <li><a href="https://languagemap.com">Language Map</a>
+                        <li><a href="https://language-map.com">Language Map</a>
                             <ul>
                                 <li>Extensive data gathering and web scraping mission detailed <a href="https://blog.standingwater.io/20200622-151403/">here</a></li>
                                 <li>BeautifulSoup4, requests, <a href="http://pubproxy.com/">PubProxy</a>, <a href="https://scrapestack.com/">scrapestack</a></li>
