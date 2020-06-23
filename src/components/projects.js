@@ -43,7 +43,6 @@ const Projects = ({ close }) => {
   nodes.sort((a, b) => {
     return order.indexOf(a.node.frontmatter.title) - order.indexOf(b.node.frontmatter.title);
   })
-  console.log(nodes)
 
   return (
     <>
@@ -59,7 +58,11 @@ const Projects = ({ close }) => {
                 </a>
               </span>
               }
-              <li>{node.frontmatter.title}</li>
+              <li>
+                <a href={node.frontmatter.url}>
+                  {node.frontmatter.title}
+                </a>
+              </li>
               <Body dangerouslySetInnerHTML={{ __html: node.html }} />
             </div>
           )
