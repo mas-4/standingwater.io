@@ -26,8 +26,8 @@ const Projects = ({ close }) => {
                   fluid(
                     quality: 100
                     maxWidth: 960
-                    duotone: { highlight: "#000000", shadow: "#000000", opacity: 20 }
                     toFormat: PNG
+                    duotone: { highlight: "#8EA594", shadow: "#FFFFFF", opacity: 100 }
                   ) {
                     ...GatsbyImageSharpFluid
                   }
