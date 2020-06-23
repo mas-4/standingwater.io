@@ -5,6 +5,8 @@ const order = [
   'glendalepainting.com',
   'vote.py',
   'Minimal Pairs Scraping Project',
+  'gobble.py',
+  'teamup.py',
 ]
 
 export default order
