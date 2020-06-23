@@ -9,7 +9,7 @@ export default function HTML(props) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <script
           src="https://kit.fontawesome.com/687d8c3677.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
         <meta
           name="viewport"

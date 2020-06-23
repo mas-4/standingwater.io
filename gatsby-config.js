@@ -3,7 +3,7 @@ module.exports = {
     title: 'Michael Sendker',
     author: 'Michael Sendker',
     description:
-      'Michael Sendker is a Python developer specializing in Flask/SQLAlchemy',
+    'Michael Sendker is a Python developer specializing in Flask/SQLAlchemy',
     siteUrl: `https://standingwater.io`,
   },
   plugins: [
@@ -27,6 +27,17 @@ module.exports = {
         icon: 'src/images/heron.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/projects`,
+      },
+    },
+    `gatsby-transformer-remark`,
     'gatsby-plugin-sass',
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ],
 }
