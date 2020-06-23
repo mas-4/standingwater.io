@@ -24,8 +24,8 @@ const Skills = ({ close }) => {
       </p>
       <p>
         In addition, since my childhood I have developed simple websites and
-        portfolio sites. Most recently I have spent a lot of time writing in
-        GatsbyJS, in which this site is built.
+        portfolio sites. Most recently I have spent a lot of time writing
+        ReactJS and GatsbyJS, in which this site is built.
       </p>
       <p>
         Recently, I have begun to explore ML, and am taking several MOOCs on
@@ -42,6 +42,7 @@ const Skills = ({ close }) => {
           <strong>Javascript</strong>: extensive experience with vanilla JS,
           GatsbyJS, React, some JQuery
         </li>
+        <li> <strong>AWS</strong>: EC2, Lambda, DynamoDB </li>
         <li> Heroku </li>
         <li> MariaDB/MySQL </li>
         <li> Elasticsearch </li>
