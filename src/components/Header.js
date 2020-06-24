@@ -28,6 +28,7 @@ const Header = props => (
                 <ul className="icons">
                     <Icon faCode="fab fa-github" url="https://github.com/malan88" />
                     <Icon faCode="fab fa-keybase" url="https://keybase.io/m88" />
+                    <Icon faCode="fab fa-spotify" url="https://open.spotify.com/user/vsb2duo6ee07ks0tqiudrdqns" />
                     <Icon faCode="fab fa-stack-overflow" url="https://stackoverflow.com/story/malan88" />
                     <Icon faCode="fab fa-hackerrank" url="https://www.hackerrank.com/mas88" />
                     <Icon faCode="fab fa-kaggle" url="https://kaggle.com/malan88" />
