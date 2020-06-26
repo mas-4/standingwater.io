@@ -2,10 +2,11 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import Heron from '../assets/svg/heron.svg'
 
-const Icon = ({ faCode, url }) => {
+const Icon = ({ faCode, title, url }) => {
     return (
         <li>
             <a
+                title={title}
                 href={url}
                 className={faCode}
             >
@@ -26,19 +27,19 @@ const Header = props => (
                     Full stack web developer. Python generalist. Specialized in <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>/<a href="https://www.sqlalchemy.org/">SQLAlchemy</a>.
                 </p>
                 <ul className="icons">
-                    <Icon faCode="fab fa-github" url="https://github.com/malan88" />
-                    <Icon faCode="fab fa-keybase" url="https://keybase.io/m88" />
-                    <Icon faCode="fab fa-spotify" url="https://open.spotify.com/user/vsb2duo6ee07ks0tqiudrdqns" />
-                    <Icon faCode="fab fa-stack-overflow" url="https://stackoverflow.com/story/malan88" />
-                    <Icon faCode="fab fa-hackerrank" url="https://www.hackerrank.com/mas88" />
-                    <Icon faCode="fab fa-kaggle" url="https://kaggle.com/malan88" />
-                    <Icon faCode="fab fa-linkedin" url="https://www.linkedin.com/in/michael-sendker" />
-                    <Icon faCode="fas fa-file-pdf" url="https://github.com/malan88/resume/raw/master/main.pdf" />
+                    <Icon title="GitHub" faCode="fab fa-github" url="https://github.com/malan88" />
+                    <Icon title="Keybase" faCode="fab fa-keybase" url="https://keybase.io/m88" />
+                    <Icon title="Spotify" faCode="fab fa-spotify" url="https://open.spotify.com/user/vsb2duo6ee07ks0tqiudrdqns" />
+                    <Icon title="Stack Overflow" faCode="fab fa-stack-overflow" url="https://stackoverflow.com/story/malan88" />
+                    <Icon title="HackerRank" faCode="fab fa-hackerrank" url="https://www.hackerrank.com/mas88" />
+                    <Icon title="Kaggle" faCode="fab fa-kaggle" url="https://kaggle.com/malan88" />
+                    <Icon title="LinkedIn" faCode="fab fa-linkedin" url="https://www.linkedin.com/in/michael-sendker" />
+                    <Icon title="Résumé" faCode="fas fa-file-pdf" url="https://github.com/malan88/resume/raw/master/main.pdf" />
                     <li>
                         <a
                             href="https://blog.standingwater.io"
                         >
-                            <span style={{ fontWeight: "bold" }} className="label">blog</span>
+                            <span title="blog" style={{ fontWeight: "bold" }} className="label">blog</span>
                         </a>
                     </li>
                 </ul>
