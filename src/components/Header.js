@@ -82,7 +82,7 @@ const Header = props => (
           />
           <SVGIcon
             title="InstaPaper"
-            href="https://www.instapaper.com/p/mas"
+            url="https://www.instapaper.com/p/mas"
             SVG={InstaPaper}
           />
           <Icon
