@@ -7,6 +7,14 @@ module.exports = {
     siteUrl: `https://standingwater.io`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets\/svg/,
+        }
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-htaccess',

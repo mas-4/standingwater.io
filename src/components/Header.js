@@ -1,19 +1,44 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+
 import Heron from '../assets/svg/heron.svg'
+import InstaPaper from '../assets/svg/instapaper.svg'
 
 const Icon = ({ faCode, title, url }) => {
   return (
     <li>
-      <a title={title} href={url} className={faCode}></a>
+      <a
+        style={{ textShadow: "none" }}
+        title={title}
+        href={url}
+        className={faCode}
+      ></a>
     </li>
   )
+}
+
+const SVGIcon = ({ SVG, title, url }) => {
+  return (
+    <li>
+      <a title={title} href={url}>
+        <SVG
+          style={{
+            fill: "white",
+            marginBottom: "6px",
+            verticalAlign: "middle",
+            cursor: "pointer",
+          }}
+        />
+      </a>
+    </li>
+  )
+
 }
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img src={Heron} alt="Heron Logo" />
+      <Heron style={{ marginTop: "0.5rem" }} />
     </div>
     <div className="content">
       <div className="inner">
@@ -55,6 +80,11 @@ const Header = props => (
             faCode="fab fa-kaggle"
             url="https://kaggle.com/malan88"
           />
+          <SVGIcon
+            title="InstaPaper"
+            href="https://www.instapaper.com/p/mas"
+            SVG={InstaPaper}
+          />
           <Icon
             title="LinkedIn"
             faCode="fab fa-linkedin"
@@ -65,17 +95,11 @@ const Header = props => (
             faCode="fas fa-file-pdf"
             url="https://github.com/malan88/resume/raw/master/main.pdf"
           />
-          <li>
-            <a href="https://blog.standingwater.io">
-              <span
-                title="blog"
-                style={{ fontWeight: 'bold' }}
-                className="label"
-              >
-                blog
-              </span>
-            </a>
-          </li>
+          <Icon
+            title="Blog"
+            faCode="fas fa-align-left"
+            url="https://blog.stdwtr.io"
+          />
         </ul>
       </div>
     </div>
