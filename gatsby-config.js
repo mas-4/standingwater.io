@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: `https://standingwater.io`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
