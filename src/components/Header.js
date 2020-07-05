@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import styled from 'styled-components'
 
 import Heron from '../assets/svg/heron.svg'
 import InstaPaper from '../assets/svg/instapaper.svg'
@@ -18,27 +19,44 @@ const Icon = ({ faCode, title, url }) => {
 }
 
 const SVGIcon = ({ SVG, title, url }) => {
+  const StyledSVG = styled(SVG)`
+  margin-bottom: 6px;
+  vertical-align: middle;
+  cursor: pointer;
+  @media (max-width: 1680px) {
+    width: 40px;
+  }
+  `
+
   return (
     <li>
       <a title={title} href={url}>
-        <SVG
+        <StyledSVG
           style={{
             fill: "white",
-            marginBottom: "6px",
-            verticalAlign: "middle",
-            cursor: "pointer",
           }}
         />
       </a>
     </li>
   )
-
 }
+
+const StyledHeron = styled(Heron)`
+margin-top: 0.5rem;
+@media (max-width: 1680px) {
+  margin-top: -0.5rem;
+  width: 75px;
+}
+@media (max-width: 736px) {
+  width: 60px;
+  margin-top: -1rem;
+}
+`
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <Heron style={{ marginTop: "0.5rem" }} />
+      <StyledHeron />
     </div>
     <div className="content">
       <div className="inner">
