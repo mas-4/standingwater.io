@@ -2,6 +2,7 @@
 title: "glendalepainting.com"
 url: "https://glendalepainting.netlify.app"
 featureImage: "./glendalepainting.jpg"
+short: "glendale"
 ---
 - [GatsbyJS][0] static site
 - [react-spring][1] for parallax animation

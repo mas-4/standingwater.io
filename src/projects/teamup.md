@@ -1,6 +1,7 @@
 ---
 title: "teamup.py"
 url: "https://github.com/malan88/teamup"
+short: "teamup"
 ---
 
 - Script for programatically generating teams from individuals based on their

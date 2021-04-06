@@ -2,6 +2,7 @@
 title: "Letters of John and Abigail Adams Twitterbot"
 url: "https://github.com/malan88/johnandabigail"
 featureImage: "./johnandabigail.jpg"
+short: "john"
 ---
 - Twitter handle [@john\_and\_abbie][10]
 - Bot to tweet the corpus of letters between [John and Abigail Adams][0]

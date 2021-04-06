@@ -2,9 +2,20 @@
 title: "Intertextual Canon Cloud (anno.wiki)"
 url: "https://github.com/malan88/icc"
 featureImage: "./annowiki.jpg"
+short: "annowiki"
 ---
-- I designed, developed, launched, and continue to maintain the web application
-  at [anno.wiki][0] solo.
+The ICC is a web application designed to allow for collaboratively building an
+exhaustive and definitive repository of annotated literature. I designed,
+developed, deployed, and continue to maintain the project solo, managing
+occasionally to rope in some programmer friends for help with various
+features.It consists of ≈14k lines of code and ≈100k lines of code churn. The
+backend uses Flask/SQLAlchemy. The frontend uses Jinja2, Sass, and VanillaJS. I
+also had to write several ETL data pipelines for process-ing Project Gutenberg
+texts. It is deployed via Heroku. I learned the entire web application life
+cycle on this project, and it continues to teach me. It is currently maintained
+at [https://anno.wiki][0]. I am also currently working on a second iteration of
+the site.
+
 - Primarily coded in [Flask][1]/[SQLAlchemy][2]
 - Wrote many [ETL data pipeline scripts][3] for processing [Project
   Gutenberg][4] text files into custom JSON formats
@@ -15,6 +26,7 @@ featureImage: "./annowiki.jpg"
 - [Talisman][8] for CSRF security
 - [pytest][9] for testing
 - [WTForms][10] for forms
+
 
 [0]: https://anno.wiki
 [1]: https://flask.palletsprojects.com/en/1.1.x/

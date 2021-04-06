@@ -2,6 +2,7 @@
 title: "Language Map"
 url: "https://language-map.com"
 featureImage: "./languagemap.jpg"
+short: "languagemap"
 ---
 
 - Extensive data gathering and web scraping mission detailed [here][0]

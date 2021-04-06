@@ -2,6 +2,7 @@
 title: "standingwater.io & blog.standingwater.io"
 url: "https://blog.standingwater.io"
 featureImage: "./site.jpg"
+short: "stdwtr"
 ---
 
 - [GatsbyJS][0] blog built from the [default starter][5].

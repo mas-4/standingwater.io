@@ -1,6 +1,7 @@
 ---
 title: "gobble.py"
 url: "https://github.com/malan88/gobble"
+short: "gobble"
 ---
 
 - Python script using the `secrets` module from the Standard Library to generate

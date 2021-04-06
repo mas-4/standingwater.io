@@ -1,6 +1,7 @@
 ---
 title: "vote.py"
 url: "https://github.com/malan88/vote"
+short: "vote"
 ---
 
 - Automated Python script to encourage and remind people to register to vote.
