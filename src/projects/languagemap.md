@@ -4,6 +4,17 @@ url: "https://language-map.com"
 featureImage: "./languagemap.jpg"
 short: "languagemap"
 ---
+This project was inspired by a trend on reddit.com/r/languagelearning where
+people would post world maps with the countries colored by the languages they
+spoke. I decided to build an actual dedicated web app that would automatically
+color the countries themselves.
+
+To do this required a lot of data gathering and cleaning. Doing that itself was
+an arduous process that had a lot of false starts. The final method I settled on
+was to use Google Sheets 'importhtml' function, which could be used to import
+Wikipedia tables to a spreadsheet. To automate this I used Python and gspread.
+
+It was definitely a lesson in data gathering and cleaning.
 
 - Extensive data gathering and web scraping mission detailed [here][0]
 - [BeautifulSoup4][1], [requests][2], [PubProxy][3], [scrapestack][4]
