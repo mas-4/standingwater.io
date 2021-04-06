@@ -20,6 +20,7 @@ const Projects = ({ close }) => {
             html
             frontmatter {
               title
+              short
               url
               featureImage {
                 childImageSharp {
@@ -41,7 +42,7 @@ const Projects = ({ close }) => {
   `)
   const nodes = data.allMarkdownRemark.edges;
   nodes.sort((a, b) => {
-    return order.indexOf(a.node.frontmatter.title) - order.indexOf(b.node.frontmatter.title);
+    return order.indexOf(a.node.frontmatter.short) - order.indexOf(b.node.frontmatter.short);
   })
 
   return (
@@ -51,19 +52,18 @@ const Projects = ({ close }) => {
         {data.allMarkdownRemark.edges.map(
           ({ node }) => (
             <div key={node.id}>
+              <a href={node.frontmatter.url}>
+                  {node.frontmatter.title}
+                </a>
               {node.frontmatter.featureImage &&
-              <span className="image main project">
+              <span className="image main project" style={{ marginTop: 10 }}>
                 <a href={node.frontmatter.url}>
                   <Img fluid={node.frontmatter.featureImage.childImageSharp.fluid} />
                 </a>
               </span>
               }
-              <li>
-                <a href={node.frontmatter.url}>
-                  {node.frontmatter.title}
-                </a>
-              </li>
               <Body dangerouslySetInnerHTML={{ __html: node.html }} />
+              <hr style={{ margin: 50 }}/>
             </div>
           )
         )}
