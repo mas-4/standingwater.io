@@ -1,6 +1,6 @@
 const order = [
   'annowiki',
-  'strata',
+//  'strata',
   'euler',
   'languagemap',
   'john',

@@ -44,6 +44,11 @@ const Projects = ({ close }) => {
   nodes.sort((a, b) => {
     return order.indexOf(a.node.frontmatter.short) - order.indexOf(b.node.frontmatter.short);
   })
+  for (let i = 0; i < nodes.length; i++) {
+    if (!order.includes(nodes[i].node.frontmatter.short)) {
+      nodes.splice(i, 1);
+    }
+  }
 
   return (
     <>
