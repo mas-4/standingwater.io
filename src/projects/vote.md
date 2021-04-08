@@ -3,8 +3,8 @@ title: "vote.py"
 url: "https://github.com/malan88/vote"
 short: "vote"
 ---
-A friend of mine had never voted, nor registered to vote, before. I made sure
-she did by writing this little script to text her using Twilio to remind her to
+A friend of mine had never voted, nor registered to vote. So I made sure she did
+in 2020 by writing this little script to text her using Twilio to remind her to
 vote on an increasingly frequent basis as the deadline for registration drew
 near. She registered pretty quick, actually and it didn't run for that long.
 Which is lucky, because I ended up discovering a breaking bug on the month roll
