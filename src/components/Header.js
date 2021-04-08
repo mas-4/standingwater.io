@@ -63,9 +63,7 @@ const Header = props => (
         <h1>Michael Sendker</h1>
         <p>
           Full stack web developer. Python generalist. Specialized in{' '}
-          <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and{' '}
-          <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>/
-          <a href="https://www.sqlalchemy.org/">SQLAlchemy</a>.
+          Python and React web development.
         </p>
         <ul className="icons">
           <Icon
