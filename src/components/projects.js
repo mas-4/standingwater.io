@@ -5,6 +5,9 @@ import Img from 'gatsby-image'
 import order from '../projects/sort'
 
 const Body = styled.span`
+p, ul {
+margin: 0 0 1rem 0;
+}
 li {
   list-style: disc;
 }

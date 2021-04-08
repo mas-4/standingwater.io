@@ -2,6 +2,7 @@ const order = [
   'annowiki',
 //  'strata',
   'euler',
+  'amazon',
   'languagemap',
   'john',
   'roastuino',
