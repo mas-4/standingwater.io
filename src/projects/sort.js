@@ -4,6 +4,7 @@ const order = [
   'euler',
   'languagemap',
   'john',
+  'roastuino',
   'anki',
   'stdwtr',
   'glendale',

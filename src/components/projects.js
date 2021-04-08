@@ -61,7 +61,7 @@ const Projects = ({ close }) => {
                   {node.frontmatter.title}
                 </a>
               {node.frontmatter.featureImage &&
-              <span className="image main project" style={{ marginTop: 10 }}>
+              <span className="image main project" style={{ marginTop: 10, marginBottom: 10 }}>
                 <a href={node.frontmatter.url}>
                   <Img fluid={node.frontmatter.featureImage.childImageSharp.fluid} />
                 </a>
