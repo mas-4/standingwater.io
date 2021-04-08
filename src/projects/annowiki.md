@@ -10,7 +10,7 @@ developed, deployed, and continue to maintain the project solo, managing
 occasionally to rope in some programmer friends for help with various
 features.It consists of ≈14k lines of code and ≈100k lines of code churn. The
 backend uses Flask/SQLAlchemy. The frontend uses Jinja2, Sass, and VanillaJS. I
-also had to write several ETL data pipelines for process-ing Project Gutenberg
+also had to write several ETL data pipelines for processing Project Gutenberg
 texts. It is deployed via Heroku. I learned the entire web application life
 cycle on this project, and it continues to teach me. It is currently maintained
 at [https://anno.wiki][0]. I am also currently working on a second iteration of
