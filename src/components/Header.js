@@ -71,7 +71,7 @@ const Header = props => (
             faCode="fab fa-github"
             url="https://github.com/malan88"
           />
-          <Icon
+          {/*<Icon
             title="Keybase"
             faCode="fab fa-keybase"
             url="https://keybase.io/m88"
@@ -80,7 +80,7 @@ const Header = props => (
             title="Spotify"
             faCode="fab fa-spotify"
             url="https://open.spotify.com/user/vsb2duo6ee07ks0tqiudrdqns"
-          />
+          />*/}
           <Icon
             title="Stack Overflow"
             faCode="fab fa-stack-overflow"
@@ -91,7 +91,7 @@ const Header = props => (
             faCode="fab fa-hackerrank"
             url="https://www.hackerrank.com/mas88"
           />
-          <Icon
+          {/*<Icon
             title="Kaggle"
             faCode="fab fa-kaggle"
             url="https://kaggle.com/malan88"
@@ -100,7 +100,7 @@ const Header = props => (
             title="InstaPaper"
             url="https://www.instapaper.com/p/mas"
             SVG={InstaPaper}
-          />
+          />*/}
           <Icon
             title="LinkedIn"
             faCode="fab fa-linkedin"
