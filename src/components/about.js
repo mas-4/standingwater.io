@@ -14,7 +14,7 @@ const About = ({ close }) => {
         website in just HTML and CSS at age 13, but was more pulled by the
         liberal arts. I majored in philosophy and classics at Florida State
         University. I only became more interested in programming as part of
-        my developing obsession with literature.
+        my ongoing obsession with literature.
       </p>
       <p>
         As I embarked on a personal study of the tragedies of Shakespeare
@@ -29,43 +29,29 @@ const About = ({ close }) => {
         literature: <a href="https://anno.wiki">anno.wiki</a>.
       </p>
       <p>
-        As a result of that experience I delved far deeper into programming
-        and computers than I expected. I studied computer security and
-        calculus. I studied C and Lisp through Structure and Interpretation
-        of Computer Programs. I delved into Linux ricing and React. I began
-        to recognize the{' '}
+        It's been almost four years since I started that project, and while the
+        first iteration has never taken off, I've been redesigning it on and off
+        for the past two years as a Single Page Application using a better data
+        structure design cribbed <a href="https://github.com/okfn/textus/">from
+        those who came before me</a> in the desire to see an open source,
+        collaborative, exhaustive, and definitive repository of literary
+        annotations. It is, for all intents and purposes, my life's work.
+      </p>
+      <p>
+        As a result of that pursuit I have delved far deeper into programming
+        and computers than I'd expected. I've studied computer security and
+        calculus. I've studied C through K&R and Lisp through SICP. I've delved
+        into Linux ricing and React. I've recognized the beauty in computing. In
+        short, I began to recognize the{' '}
         <a href="https://blog.standingwater.io/20200608-073745/">
           High Culture of Open Source
         </a>
         .
       </p>
-      <p>I continue to learn, and am currently studying the following:</p>
-      <ul>
-        <li>
-          <a href="https://www.coursera.org/specializations/statistics-with-python">
-            UM's Statistics with Python Specialization
-          </a>
-        </li>
-        <li>
-          <a href="https://www.udemy.com/course/statistics-probability/">
-            Udemy's Become a Probability & Statistics Master
-          </a>
-        </li>
-        <li>
-          <a href="https://www.kaggle.com/learn/overview">
-            Kaggle's Machine Learning Mini-Courses
-          </a>
-        </li>
-        <li>
-          <a href="https://www.gopl.io/">
-            Donovan and Kernighan's{' '}
-            <emphasis>The Go Programming Language</emphasis>
-          </a>
-        </li>
-      </ul>
       <p>
         In my spare time I enjoy literature (particularly William Faulkner
-        and Cormac McCarthy), wine, and running.
+        and Cormac McCarthy), wine, coffee, mixology, and running. And I've been
+        known to periodically open Minecraft.
       </p>
       {close}
     </>
