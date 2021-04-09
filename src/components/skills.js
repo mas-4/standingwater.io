@@ -101,7 +101,7 @@ const Skills = ({ close }) => {
           <strong>Web Design</strong>: Styled Components, Sass, CSS3, Photoshop, GIMP
         </li>
         <li>
-          <strong>Miscellaneous</strong>: Excel, PyCairo, gspread, openpyxl, Systemd Units, Chron
+          <strong>Miscellaneous</strong>: Docker, Docker Compose, Excel, PyCairo, gspread, openpyxl, Systemd Units, Chron
         </li>
       </UL>
       {close}
